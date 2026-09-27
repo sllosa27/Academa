@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+ 
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  letter-spacing: -1px;
+}
+
+h2 {
+  margin-top: 24px;
+}
+
+input,
+select,
+button {
+  padding: 10px 12px;
+  margin: 6px;
+  border-radius: 8px;
+  border: 1px solid #475569;
+  font-size: 16px;
+}
+
+input,
+select {
+  background: #1e293b;
+  color: white;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+.assignment-form {
+ 
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.assignment-card {
+  border: 1px solid #334155;
+  background: #1e293b;
+  padding: 18px;
+  margin-top: 16px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+h2 {
+  margin-top: 32px;
+}
+
+.assignment-card button {
+  margin-right: 8px;
+  margin-top: 8px;
+  }
